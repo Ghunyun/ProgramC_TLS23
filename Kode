@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main (){
+    float J, K ,W;
+    cout <<"Masukkan jarak (km): ";
+    cin >> J;
+    cout <<"Masukkan kecepatan (km/j): ";
+    cin >> K;
+    
+    W = J / K;
+    
+    
+    cout <<"waktu yang ditempuh " << W << " jam" <<endl;
+    
+    return 0;
+}
